@@ -1,12 +1,10 @@
 .flex-container{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
 }
 .inline-flex-container{
     display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
 }
 .bg-red{
     background-color: red;
