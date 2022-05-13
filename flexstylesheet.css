@@ -1,42 +1,95 @@
-div{
-    border: 1px solid black;
+body{
+    padding: 0px;
+    margin: 0px;
 }
 .header{
     display: flex;
     flex-flow: row wrap;
-    height: 40px;
-    padding: 10px;
-    background-color: gray;
-}
-.header>div{
-    margin-right: 30px;
-    padding-top: 10px;
-    text-align: center;
-    width: 10%;
-    vertical-align: middle;
+    justify-content: space-between;
+    height: 80px;
+    padding: 20px 40px 20px 40px;
     background-color: darkgray;
 }
-.main-content{
+.start{
     display: flex;
+    flex-flow: row wrap;
 }
-.menu{
+.start>div{
+    margin-right: 30px;
+    padding: 30px;
+    background-color: gray;
+    border-radius: 5px;
+}
+.icon1{
+    margin-right: 30px;
+    width: 85px;
+    border-radius: 5px;
+}
+.end{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+.end>div{
+    padding: 30px;
+    background-color: gray;
+    border-radius: 5px;
+}
+.image{
+    display: flex;
+    width: 100%;
+    background-color: beige;
+    height: 400px;
+    justify-content: center;
+}
+.body{
     display: flex;
     flex-flow: column wrap;
-    align-items: center;
-    width: 20%;
-    padding: 10px;
-    height: 250px;
-    justify-content: space-around;
+    align-content: center;
+    background-color: white;
+    height: auto;
+    padding: 80px 0 80px 0;
 }
-.menu>div{
-    padding-top: 20px;
-    width: 80%;
-    height: 40px;
-    text-align: center;
+.body .main-content{
+    display: flex;
+    flex-flow: row wrap;
     background-color: darkgray;
+    justify-content: space-around;
+    align-content: space-between;
+    width: 75%;
+    border-radius: 10px;
+    padding: 20px;
+}
+.body .main-content>div{
+    width: 250px;
+    margin: 40px 0 40px 0;
+    background-color: gray;
+    border-radius: 10px;
 }
 .content{
     display: flex;
-    flex-grow: 1;
-    padding: 10px;
+    flex-flow: column wrap;
+    align-items: center;
+    align-content: space-around;
+    padding: 30px;
+}
+.content>img{
+    width: 150px;
+}
+.footer{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: darkgray;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px 40px 20px 40px;
+}
+.footer>div{
+    padding: 20px;
+    background-color: gray;
+    border-radius: 5px;
+}
+.icon2{
+    width: 70px;
+    border-radius: 5px;
 }
